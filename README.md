@@ -98,6 +98,20 @@ Step go to Azure Portal  and click to Create Resources and find web app
 
 <img src="./Images/Screenshot 2026-02-03 123647.png">
 
+Click Review + Create and mark all the details 
+
+<img src="./Images/Screenshot 2026-02-03 124104.png">
+
+now click review and Create
+
+<img src="./Images/Screenshot 2026-02-03 124104.png">
+
+After deployment you will find default domain name click it and you will find your container live on Azure cloud
+
+<img src="./Images/Screenshot 2026-02-03 124104.png">
+
+successfull......deploy
+
 <img src="./Images/Screenshot 2026-02-03 124104.png">
 
        

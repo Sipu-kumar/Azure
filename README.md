@@ -7,6 +7,11 @@ This guide explains how to containerize an application using Docker and deploy i
 Visit <a href="https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-windows?view=azure-cli-latest&pivots=msi"> this site </a>and install Azure CLI
 
 <img src="./Images/Images1.png"> 
+
+
+After installation, close and reopen any active terminal window. Run the Azure CLI with the az command from either PowerShell or the Windows Command Prompt.
+
+<img src="./Images/Azure done.png">
 ## Prerequisites
 
 Make sure you have the following installed and ready:

@@ -12,6 +12,11 @@ Visit <a href="https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-win
 After installation, close and reopen any active terminal window. Run the Azure CLI with the az command from either PowerShell or the Windows Command Prompt.
 
 <img src="./Images/Azure done.png">
+
+1. Now login to your Azure with Azure CLI <b>with command</b> 
+
+    AZ login
+
 ## Prerequisites
 
 Make sure you have the following installed and ready:

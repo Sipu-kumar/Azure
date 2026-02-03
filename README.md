@@ -45,13 +45,13 @@ You will one Jason type structure. It means that you have successfully login
 3. Create a Dockerfile:    
 
 ### Example for Python Flask app
-`FROM python:3.11-slim
-WORKDIR /app
-COPY requirements.txt .
-RUN pip install -r requirements.txt
-COPY . .
-EXPOSE 5000
-CMD ["python", "app.py"]`
+    FROM python:3.11-slim
+    WORKDIR /app
+    COPY requirements.txt .
+    RUN pip install -r requirements.txt
+    COPY . .
+    EXPOSE 5000
+    CMD ["python", "app.py"]`
 
 ## Step 1: Create a Docker Image
 

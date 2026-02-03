@@ -44,7 +44,7 @@ You will one Jason type structure. It means that you have successfully login
 2. Create a simple app (for example, Python Flask or Node.js).
 3. Create a Dockerfile:    
 
-### Example for Python Flask app
+### Step 1: Create a Docker Image Example for Python Flask app 
     FROM python:3.11-slim
     WORKDIR /app
     COPY requirements.txt .
@@ -53,8 +53,7 @@ You will one Jason type structure. It means that you have successfully login
     EXPOSE 5000
     CMD ["python", "app.py"]`
 
-## Step 1: Create a Docker Image
-
+# Create a Docker Image Example for Node
 Create a `Dockerfile` in your project root.
 
 ### Example Dockerfile

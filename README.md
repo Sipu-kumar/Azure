@@ -57,14 +57,28 @@ You will one Jason type structure. It means that you have successfully login
 Create a `Dockerfile` in your project root.
 
 ### Example Dockerfile
-```dockerfile
-FROM node:18-alpine
-WORKDIR /app
-COPY package*.json ./
-RUN npm install
-COPY . .
-EXPOSE 3000
-CMD ["npm", "start"]
+    dockerfile
+    FROM node:18-alpine
+    WORKDIR /app
+    COPY package*.json ./
+    RUN npm install
+    COPY . .
+    EXPOSE 3000
+    CMD ["npm", "start"]
 
----
+4. Build the image:
+   
+   `docker build -t myapp:1.0 .`
+
+5. Test locally:
+   `docker run -p 5000:5000 myapp:1.0`
+
+# Step 2: Push Docker Image to Azure Container Registry (ACR)
+1. Search for “Container Registry”
+   At the top search bar, type: 
+
+# Container Registry
+Click on Container Registries service.
+
+
 

@@ -89,5 +89,10 @@ Click on Container Registries service.
 
 <img src="./">
 
+6. Push image:
+         
+       docker push myacrstudent.azurecr.io/myapp:1.0
+
+       
 
 

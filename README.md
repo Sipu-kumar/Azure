@@ -98,6 +98,8 @@ Step go to Azure Portal  and click to Create Resources and find web app
 
 <img src="./Images/Screenshot 2026-02-03 123647.png">
 
+<img src="./Images/Screenshot 2026-02-03 124104.png">
+
        
 
 

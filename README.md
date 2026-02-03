@@ -93,6 +93,9 @@ Click on Container Registries service.
          
        docker push myacrstudent.azurecr.io/myapp:1.0
 
+Step go to Azure Portal  and click to Create Resources and find web app
+<img src="./">
+
        
 
 

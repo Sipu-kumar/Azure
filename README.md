@@ -24,7 +24,7 @@ After installation, close and reopen any active terminal window. Run the Azure C
 
 1. Now login to your Azure with Azure CLI <b>with command</b> 
 
-    AZ login
+    `AZ login`
 
 It will take you to one interactive window to login to your Azure account - use the email which is your primary email account for azure. 
 
@@ -34,7 +34,7 @@ After Successful login you will get out put as follows
 
 2. Now you can check your account details by using below command. 
 
-      az account show
+      `az account show`
 
 You will one Jason type structure. It means that you have successfully login
 
@@ -45,13 +45,13 @@ You will one Jason type structure. It means that you have successfully login
 3. Create a Dockerfile:    
 
 ### Example for Python Flask app
-FROM python:3.11-slim
+`FROM python:3.11-slim
 WORKDIR /app
 COPY requirements.txt .
 RUN pip install -r requirements.txt
 COPY . .
 EXPOSE 5000
-CMD ["python", "app.py"]
+CMD ["python", "app.py"]`
 
 ## Step 1: Create a Docker Image
 

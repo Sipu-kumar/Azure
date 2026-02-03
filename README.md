@@ -2,6 +2,15 @@
 
 This guide explains how to containerize an application using Docker and deploy it to **Microsoft Azure** using **Azure Container Registry (ACR)** and **Azure Container Instances (ACI)**.
 
+## Prerequisites
+
+Make sure you have the following installed and ready:
+
+- Docker
+- Azure CLI
+- An Azure account
+- A working application (Node.js / Java / Python / etc.)
+
 ---
 ## How to install Azure CLI to Windows 
 Visit <a href="https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-windows?view=azure-cli-latest&pivots=msi"> this site </a>and install Azure CLI
@@ -17,16 +26,32 @@ After installation, close and reopen any active terminal window. Run the Azure C
 
     AZ login
 
-## Prerequisites
+It will take you to one interactive window to login to your Azure account - use the email which is your primary email account for azure. 
 
-Make sure you have the following installed and ready:
+After Successful login you will get out put as follows 
 
-- Docker
-- Azure CLI
-- An Azure account
-- A working application (Node.js / Java / Python / etc.)
+<img src="./Images/Successful.png">
 
----
+2. Now you can check your account details by using below command. 
+
+      az account show
+
+You will one Jason type structure. It means that you have successfully login
+
+# Steps to Deploy a Docker Container to Azure
+# Step 1: Create a Docker Container Locally
+1. Install Docker on your machine.
+2. Create a simple app (for example, Python Flask or Node.js).
+3. Create a Dockerfile:    
+
+### Example for Python Flask app
+FROM python:3.11-slim
+WORKDIR /app
+COPY requirements.txt .
+RUN pip install -r requirements.txt
+COPY . .
+EXPOSE 5000
+CMD ["python", "app.py"]
 
 ## Step 1: Create a Docker Image
 
@@ -41,3 +66,6 @@ RUN npm install
 COPY . .
 EXPOSE 3000
 CMD ["npm", "start"]
+
+---
+

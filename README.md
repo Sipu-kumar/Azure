@@ -104,7 +104,7 @@ Click Review + Create and mark all the details
 
 now click review and Create
 
-<img src="./Images/Screenshot 2026-02-03 124104.png">
+<img src="./Images/Screenshot 2026-02-03 124517.png">
 
 After deployment you will find default domain name click it and you will find your container live on Azure cloud
 

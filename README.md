@@ -87,7 +87,7 @@ Click on Container Registries service.
 
 <img src="./Images/Screenshot 2026-02-03 123016.png">
 
-<img src="./">
+<img src="./Images/Screenshot 2026-02-03 123043.png">
 
 6. Push image:
          
